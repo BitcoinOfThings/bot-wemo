@@ -1,0 +1,28 @@
+{
+  "name": "bot-wemo",
+  "version": "1.0.0",
+  "description": "Bitcoin Of Things using wemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitcoinofthings/bot-wemo.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "wemo",
+    "iot"
+  ],
+  "author": "Dave Foderick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitcoinofthings/bot-wemo/issues"
+  },
+  "homepage": "https://github.com/bitcoinofthings/bot-wemo#readme",
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "wemo-client": "^0.15.0"
+  }
+}
