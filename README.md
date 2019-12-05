@@ -3,7 +3,7 @@ Control Wemo switch using Bitcoin.
 
 There is a lot going on even in this simple example.
 
-![A wemo switch controlled by Bitcoin](wemo-switch.jpg)
+<img src="wemo-switch.jpg" width="300">
 
 ## A word on hardware oracles and agents
 Events on the Bitcoin ledger cannot control real-world devices without some "controller" or agent. This agent is also known as an oracle so I will use the terms synonymously. An agent is simply a piece of software that does what it is told. A hardware oracle is simply an agent that runs outside bitcoin and controls or responds to a hardware device.
