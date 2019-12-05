@@ -5,6 +5,21 @@ There is a lot going on even in this simple example.
 
 <img src="wemo-switch.jpg" width="300">
 
+## Install and Run
+```
+$ git clone https://github.com/bitcoinofthings/wemo-demo.git
+cd wemo-demo
+```
+Run discover. Sometimes hangs.
+```
+node discover.js
+```
+Run the agent for the ip address of one of your switches.
+```
+node bot-wemo.js 192.168.1.x 49153
+```
+* If you manually press the button to switch the device on or off it will publish a message on Bitcoin
+* Go to https://demo.bitcoinofthings.com to send your switch a ON or OFF message.
 ## A word on hardware oracles and agents
 Events on the Bitcoin ledger cannot control real-world devices without some "controller" or agent. This agent is also known as an oracle so I will use the terms synonymously. An agent is simply a piece of software that does what it is told. A hardware oracle is simply an agent that runs outside bitcoin and controls or responds to a hardware device.
 
